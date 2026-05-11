@@ -32,7 +32,6 @@ python main.py
 - ⚡ **One-key optimization** — Batch stop non-essential services
 - 🎮 **Gaming/Work modes** — Profile-based optimization
 - 📸 **Snapshots** — Auto-save state before changes, one-click restore
-- 🐾 **Trimmy** — Cute animated mascot that reacts to system health
 
 ## Tech Stack
 
