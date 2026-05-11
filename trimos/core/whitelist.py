@@ -16,10 +16,8 @@ class Whitelist:
 
     def __init__(self, path: str | None = None):
         if path is None:
-            path = os.path.join(
-                os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
-                "data", "whitelist.json"
-            )
+            from .paths import get_data_dir
+            path = str(get_data_dir() / "whitelist.json")
         self._path = path
         self._protected: Set[str] = set()
         self._load()

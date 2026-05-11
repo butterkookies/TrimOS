@@ -13,6 +13,7 @@ Features:
 """
 
 import os
+import shutil
 import sys
 from pathlib import Path
 
@@ -38,10 +39,13 @@ from .screens.analytics_screen import AnalyticsScreen
 from .screens.deep_clean_screen import DeepCleanScreen
 from .core.analytics import AnalyticsStore
 from .core.elevation import is_admin, restart_as_admin, enable_vt_mode
+from .core.paths import get_data_dir, get_bundled_data_dir
 
 
-# Resolve the data directory (works both in dev and when packaged)
-DATA_DIR = Path(__file__).parent.parent / "data"
+# Writable user data (whitelist, analytics, snapshots)
+DATA_DIR = get_data_dir()
+# Read-only bundled data (services.json)
+BUNDLED_DATA_DIR = get_bundled_data_dir()
 
 
 class TrimOS(App):
@@ -82,8 +86,9 @@ class TrimOS(App):
     def __init__(self):
         super().__init__()
         self._is_admin = is_admin()
+        self._seed_writable_data()
         self.whitelist = Whitelist(str(DATA_DIR / "whitelist.json"))
-        self.scanner = Scanner(str(DATA_DIR / "services.json"))
+        self.scanner = Scanner(str(BUNDLED_DATA_DIR / "services.json"))
         self.monitor = Monitor()
         self.optimizer = Optimizer(whitelist=self.whitelist)
         self.snapshots = SnapshotManager(str(DATA_DIR / "snapshots"))
@@ -95,6 +100,23 @@ class TrimOS(App):
             "services", "processes", "protected",
         ]
         self._filter_index = 0
+
+    def _seed_writable_data(self) -> None:
+        """
+        On first launch from a frozen build, copy bundled default data
+        (whitelist.json, analytics.json) into the writable user-data dir
+        so they can be modified at runtime.
+        """
+        from .core.paths import _is_frozen
+        if not _is_frozen():
+            return
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+        (DATA_DIR / "snapshots").mkdir(parents=True, exist_ok=True)
+        for fname in ("whitelist.json", "analytics.json"):
+            dest = DATA_DIR / fname
+            src = BUNDLED_DATA_DIR / fname
+            if not dest.exists() and src.exists():
+                shutil.copy2(str(src), str(dest))
 
     def compose(self) -> ComposeResult:
         """Build the TUI layout."""

@@ -62,10 +62,8 @@ class Scanner:
 
     def __init__(self, db_path: Optional[str] = None):
         if db_path is None:
-            db_path = os.path.join(
-                os.path.dirname(os.path.dirname(__file__)),
-                "data", "services.json"
-            )
+            from .paths import get_bundled_data_dir
+            db_path = str(get_bundled_data_dir() / "services.json")
         self._service_db: dict = {}
         self._load_service_db(db_path)
 

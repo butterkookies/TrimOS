@@ -14,10 +14,12 @@ from typing import Optional
 from .scanner import SystemItem, ItemType, SafetyLevel
 
 
-SNAPSHOTS_DIR = os.path.join(
-    os.path.dirname(os.path.dirname(__file__)),
-    "data", "snapshots"
-)
+def _default_snapshots_dir() -> str:
+    from .paths import get_data_dir
+    return str(get_data_dir() / "snapshots")
+
+
+SNAPSHOTS_DIR = _default_snapshots_dir()
 
 
 class SnapshotManager:
