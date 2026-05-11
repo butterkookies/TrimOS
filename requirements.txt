@@ -1,0 +1,4 @@
+textual>=3.1.0
+psutil>=6.0.0
+rich>=14.0.0
+plotext>=5.2.0

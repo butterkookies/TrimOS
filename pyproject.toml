@@ -1,0 +1,17 @@
+[project]
+name = "trimos"
+version = "1.0.0"
+description = "A lightweight terminal-based Windows optimizer with real-time performance graphs and intelligent service management."
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=3.1.0",
+    "psutil>=6.0.0",
+    "rich>=14.0.0",
+]
+
+[project.scripts]
+trimos = "trimos.app:main"
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
