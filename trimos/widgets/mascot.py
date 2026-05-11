@@ -26,6 +26,7 @@ _SIN_TILT = math.sin(_TILT_RAD)
 _LX, _LY, _LZ = 0.588, 0.392, -0.706   # already unit length ≈ 1
 
 _CAM_Z = -2.5                        # camera Z position
+_VIEW_SCALE = 1.5                    # >1 = wider FOV → sphere appears smaller
 
 # State → Y-axis spin speed (radians per frame at 20 fps)
 _SPEED: dict[str, float] = {
@@ -133,10 +134,10 @@ def _render(width: int, height: int, rot_y: float, cloud_offset: float) -> str:
 
     rows: list[str] = []
     for j in range(height):
-        sy = (j - half_h) * inv_hh
+        sy = (j - half_h) * inv_hh * _VIEW_SCALE
         row: list[str] = []
         for i in range(width):
-            sx = (i - half_w) * inv_hw * aspect
+            sx = (i - half_w) * inv_hw * aspect * _VIEW_SCALE
 
             # ── Ray direction (from camera toward pixel) ──────────────────
             rdz = -cam_z          # = 2.5 (toward +z)

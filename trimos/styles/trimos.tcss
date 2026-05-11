@@ -36,7 +36,7 @@ Screen {
 }
 
 #mascot-panel {
-    width: 20;
+    width: 18;
     height: 8;
     background: #111118;
     border: round #2a2a3a;

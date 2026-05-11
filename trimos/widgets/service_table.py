@@ -68,7 +68,7 @@ class ServiceTable(DataTable):
     ) -> None:
         """Load and display system items in the table."""
         self._items = items
-        self._item_index = {item.name: item for item in items}
+        self._item_index = {f"{item.name}:{item.item_type.value}": item for item in items}
         if protected_names is not None:
             self._protected_names = protected_names
         self._render_rows()
@@ -201,7 +201,7 @@ class ServiceTable(DataTable):
 
             self.add_row(
                 status, name, type_text, ram, cpu, safety, info,
-                key=item.name,
+                key=f"{item.name}:{item.item_type.value}",
             )
 
     def set_filter(self, filter_name: str) -> None:
@@ -219,8 +219,8 @@ class ServiceTable(DataTable):
         if self.cursor_row is not None:
             try:
                 row_key = self.ordered_rows[self.cursor_row].key
-                name = str(row_key.value)
-                return self._item_index.get(name)
+                key = str(row_key.value)  # format: "name:type"
+                return self._item_index.get(key)
             except (IndexError, AttributeError):
                 pass
         return None

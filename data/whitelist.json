@@ -1,6 +1,8 @@
 {
   "protected": [
     "antigravity",
+    "brave",
+    "chrome",
     "msedge",
     "powershell"
   ]

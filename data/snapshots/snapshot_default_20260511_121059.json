@@ -1,0 +1,2198 @@
+{
+  "label": "default",
+  "timestamp": "20260511_121059",
+  "created_at": "2026-05-11T12:10:59.009732",
+  "items": [
+    {
+      "name": "MSSQLSERVER",
+      "display_name": "SQL Server (MSSQLSERVER)",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "WinDefend",
+      "display_name": "Microsoft Defender Antivirus Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "WSearch",
+      "display_name": "Windows Search",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "ClickToRunSvc",
+      "display_name": "Microsoft Office Click-to-Run Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "Plastic Server 6",
+      "display_name": "Plastic SCM Server",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "SQLTELEMETRY",
+      "display_name": "SQL Server CEIP service (MSSQLSERVER)",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "DiagTrack",
+      "display_name": "Connected User Experiences and Telemetry",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "whesvc",
+      "display_name": "Windows Health and Optimized Experiences",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "cbdhsvc_99709",
+      "display_name": "cbdhsvc_99709",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "StateRepository",
+      "display_name": "State Repository Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "MSSQLLaunchpad",
+      "display_name": "SQL Server Launchpad (MSSQLSERVER)",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "WpnUserService_99709",
+      "display_name": "WpnUserService_99709",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "DPS",
+      "display_name": "Diagnostic Policy Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "UdkUserSvc_99709",
+      "display_name": "UdkUserSvc_99709",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "KeyIso",
+      "display_name": "CNG Key Isolation",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "SamSs",
+      "display_name": "Security Accounts Manager",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "VaultSvc",
+      "display_name": "Credential Manager",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "BrokerInfrastructure",
+      "display_name": "Background Tasks Infrastructure Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "DcomLaunch",
+      "display_name": "DCOM Server Process Launcher",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "PlugPlay",
+      "display_name": "Plug and Play",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "Power",
+      "display_name": "Power",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "SystemEventsBroker",
+      "display_name": "System Events Broker",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "CDPUserSvc_99709",
+      "display_name": "CDPUserSvc_99709",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "wuauserv",
+      "display_name": "Windows Update",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "BITS",
+      "display_name": "Background Intelligent Transfer Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "PcaSvc",
+      "display_name": "Program Compatibility Assistant Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "InventorySvc",
+      "display_name": "Inventory and Compatibility Appraisal service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "midisrv",
+      "display_name": "Windows MIDI Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "MDCoreSvc",
+      "display_name": "Microsoft Defender Core Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "InstallService",
+      "display_name": "Microsoft Store Install Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "camsvc",
+      "display_name": "Capability Access Manager Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "DoSvc",
+      "display_name": "Delivery Optimization",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "CoworkVMService",
+      "display_name": "Claude",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "TokenBroker",
+      "display_name": "Web Account Manager",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "BFE",
+      "display_name": "Base Filtering Engine",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "mpssvc",
+      "display_name": "Windows Defender Firewall",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "Spooler",
+      "display_name": "Print Spooler",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "WpnService",
+      "display_name": "Windows Push Notifications System Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "lfsvc",
+      "display_name": "Geolocation Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "SecurityHealthService",
+      "display_name": "Windows Security Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "CDPSvc",
+      "display_name": "Connected Devices Platform Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "EventLog",
+      "display_name": "Windows Event Log",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "GlideXService",
+      "display_name": "GlideX Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "CryptSvc",
+      "display_name": "Cryptographic Services",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "Winmgmt",
+      "display_name": "Windows Management Instrumentation",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "netprofm",
+      "display_name": "Network List Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "WlanSvc",
+      "display_name": "WLAN AutoConfig",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "LicenseManager",
+      "display_name": "Windows License Manager Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "NPSMSvc_99709",
+      "display_name": "NPSMSvc_99709",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "RpcEptMapper",
+      "display_name": "RPC Endpoint Mapper",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "RpcSs",
+      "display_name": "Remote Procedure Call (RPC)",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "UserManager",
+      "display_name": "User Manager",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "Audiosrv",
+      "display_name": "Windows Audio",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "SysMain",
+      "display_name": "SysMain",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "GlideXServiceExt",
+      "display_name": "GlideX Service Extension",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "Schedule",
+      "display_name": "Task Scheduler",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "webthreatdefsvc",
+      "display_name": "Web Threat Defense Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "Appinfo",
+      "display_name": "Application Information",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "Apple Mobile Device Service",
+      "display_name": "Apple Mobile Device Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "ShellHWDetection",
+      "display_name": "Shell Hardware Detection",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "WwanSvc",
+      "display_name": "WWAN AutoConfig",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "OneSyncSvc_99709",
+      "display_name": "OneSyncSvc_99709",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "AMD External Events Utility",
+      "display_name": "AMD External Events Utility",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "StorSvc",
+      "display_name": "Storage Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "iphlpsvc",
+      "display_name": "IP Helper",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "WdNisSvc",
+      "display_name": "Microsoft Defender Antivirus Network Inspection Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "AUEPLauncher",
+      "display_name": "AMD User Experience Program Data Uploader",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "Wcmsvc",
+      "display_name": "Windows Connection Manager",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "FrameServer",
+      "display_name": "Windows Camera Frame Server",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "TimeBrokerSvc",
+      "display_name": "Time Broker",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "UsoSvc",
+      "display_name": "Update Orchestrator Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "GlideXRemoteService",
+      "display_name": "GlideX Remote Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "SmsRouter",
+      "display_name": "Microsoft Windows SMS Router Service.",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "hns",
+      "display_name": "Host Network Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "AppXSvc",
+      "display_name": "AppX Deployment Service (AppXSVC)",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "NcbService",
+      "display_name": "Network Connection Broker",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "ProfSvc",
+      "display_name": "User Profile Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "wscsvc",
+      "display_name": "Security Center",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "LSM",
+      "display_name": "Local Session Manager",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "NcdAutoSetup",
+      "display_name": "Network Connected Devices Auto-Setup",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "nsi",
+      "display_name": "Network Store Interface Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "DusmSvc",
+      "display_name": "Data Usage",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "spacedeskService",
+      "display_name": "spacedeskService",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "FDResPub",
+      "display_name": "Function Discovery Resource Publication",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "Dnscache",
+      "display_name": "DNS Client",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "MyEpson Portal Service",
+      "display_name": "MyEpson Portal Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "LanmanServer",
+      "display_name": "Server",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "NgcCtnrSvc",
+      "display_name": "Microsoft Passport Container",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "AudioEndpointBuilder",
+      "display_name": "Windows Audio Endpoint Builder",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "FontCache",
+      "display_name": "Windows Font Cache Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "StiSvc",
+      "display_name": "Windows Image Acquisition (WIA)",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "SENS",
+      "display_name": "System Event Notification Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "IKEEXT",
+      "display_name": "IKE and AuthIP IPsec Keying Modules",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "ClipSVC",
+      "display_name": "Client License Service (ClipSVC)",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "RmSvc",
+      "display_name": "Radio Management Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "TextInputManagementService",
+      "display_name": "Text Input Management Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "webthreatdefusersvc_99709",
+      "display_name": "webthreatdefusersvc_99709",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "Dhcp",
+      "display_name": "DHCP Client",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "SQLWriter",
+      "display_name": "SQL Server VSS Writer",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "LanmanWorkstation",
+      "display_name": "Workstation",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "EventSystem",
+      "display_name": "COM+ Event System",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "MSSQLFDLauncher",
+      "display_name": "SQL Full-text Filter Daemon Launcher (MSSQLSERVER)",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "SSDPSRV",
+      "display_name": "SSDP Discovery",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "QWAVE",
+      "display_name": "Quality Windows Audio Video Experience",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "AMD Crash Defender Service",
+      "display_name": "AMD Crash Defender Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "gpsvc",
+      "display_name": "Group Policy Client",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "WinHttpAutoProxySvc",
+      "display_name": "WinHTTP Web Proxy Auto-Discovery Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "vmcompute",
+      "display_name": "Hyper-V Host Compute Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "PolicyAgent",
+      "display_name": "IPsec Policy Agent",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "WSAIFabricSvc",
+      "display_name": "WSAIFabricSvc",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "fdPHost",
+      "display_name": "Function Discovery Provider Host",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "RTUsbSwSrvc",
+      "display_name": "RTUsbSwSrvc",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "nvagent",
+      "display_name": "Network Virtualization Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "Bonjour Service",
+      "display_name": "Bonjour Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "DeviceAssociationService",
+      "display_name": "Device Association Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "NetSetupSvc",
+      "display_name": "Network Setup Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "SharedAccess",
+      "display_name": "Internet Connection Sharing (ICS)",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "DispBrokerDesktopSvc",
+      "display_name": "Display Policy Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "EpSecuritySupport",
+      "display_name": "Epson Printer Driver Security Support Tool",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "EpsonScanSvc",
+      "display_name": "Epson Scanner Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "postgresql-x64-18",
+      "display_name": "postgresql-x64-18 - PostgreSQL Server 18",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "WdiSystemHost",
+      "display_name": "Diagnostic System Host",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "GigabyteUpdateService",
+      "display_name": "GIGABYTE Update Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "CoreMessagingRegistrar",
+      "display_name": "CoreMessaging",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "WifiAutoInstallSrv",
+      "display_name": "Wifi AutoInstall Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "Themes",
+      "display_name": "Themes",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "hidserv",
+      "display_name": "Human Interface Device Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "essential"
+    },
+    {
+      "name": "TrkWks",
+      "display_name": "Distributed Link Tracking Client",
+      "item_type": "service",
+      "status": "running",
+      "safety": "trimmable"
+    },
+    {
+      "name": "HvHost",
+      "display_name": "HV Host Service",
+      "item_type": "service",
+      "status": "running",
+      "safety": "unknown"
+    },
+    {
+      "name": "lmhosts",
+      "display_name": "TCP/IP NetBIOS Helper",
+      "item_type": "service",
+      "status": "running",
+      "safety": "recommended"
+    },
+    {
+      "name": "ADPSvc",
+      "display_name": "Aggregated Data Platform Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "ALG",
+      "display_name": "Application Layer Gateway Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "AppIDSvc",
+      "display_name": "Application Identity",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "recommended"
+    },
+    {
+      "name": "AppMgmt",
+      "display_name": "Application Management",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "AppReadiness",
+      "display_name": "App Readiness",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "AppVClient",
+      "display_name": "Microsoft App-V Client",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "ApxSvc",
+      "display_name": "Windows Virtual Audio Device Proxy Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "aspnet_state",
+      "display_name": "ASP.NET State Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "AssignedAccessManagerSvc",
+      "display_name": "AssignedAccessManager Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "autotimesvc",
+      "display_name": "Cellular Time",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "AxInstSV",
+      "display_name": "ActiveX Installer (AxInstSV)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "BDESVC",
+      "display_name": "BitLocker Drive Encryption Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "recommended"
+    },
+    {
+      "name": "brave",
+      "display_name": "Brave Update Service (brave)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "BraveElevationService",
+      "display_name": "Brave Elevation Service (BraveElevationService)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "bravem",
+      "display_name": "Brave Update Service (bravem)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "BTAGService",
+      "display_name": "Bluetooth Audio Gateway Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "BthAvctpSvc",
+      "display_name": "AVCTP service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "bthserv",
+      "display_name": "Bluetooth Support Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "recommended"
+    },
+    {
+      "name": "CertPropSvc",
+      "display_name": "Certificate Propagation",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "cloudidsvc",
+      "display_name": "Microsoft Cloud Identity Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "COMSysApp",
+      "display_name": "COM+ System Application",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "recommended"
+    },
+    {
+      "name": "CscService",
+      "display_name": "Offline Files",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "dcsvc",
+      "display_name": "Declared Configuration(DC) service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "defragsvc",
+      "display_name": "Optimize drives",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "DeviceInstall",
+      "display_name": "Device Install Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "DevQueryBroker",
+      "display_name": "DevQuery Background Discovery Broker",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "recommended"
+    },
+    {
+      "name": "diagsvc",
+      "display_name": "Diagnostic Execution Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "DialogBlockingService",
+      "display_name": "DialogBlockingService",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "DisplayEnhancementService",
+      "display_name": "Display Enhancement Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "recommended"
+    },
+    {
+      "name": "DmEnrollmentSvc",
+      "display_name": "Device Management Enrollment Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "dmwappushservice",
+      "display_name": "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "dot3svc",
+      "display_name": "Wired AutoConfig",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "DsmSvc",
+      "display_name": "Device Setup Manager",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "DsSvc",
+      "display_name": "Data Sharing Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "EapHost",
+      "display_name": "Extensible Authentication Protocol",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "recommended"
+    },
+    {
+      "name": "edgeupdate",
+      "display_name": "Microsoft Edge Update Service (edgeupdate)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "edgeupdatem",
+      "display_name": "Microsoft Edge Update Service (edgeupdatem)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "EFS",
+      "display_name": "Encrypting File System (EFS)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "recommended"
+    },
+    {
+      "name": "embeddedmode",
+      "display_name": "Embedded Mode",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "EntAppSvc",
+      "display_name": "Enterprise App Management Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "fhsvc",
+      "display_name": "File History Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "FileSyncHelper",
+      "display_name": "FileSyncHelper",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "FontCache3.0.0.0",
+      "display_name": "Windows Presentation Foundation Font Cache 3.0.0.0",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "FrameServerMonitor",
+      "display_name": "Windows Camera Frame Server Monitor",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "GameInputSvc",
+      "display_name": "GameInput Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "GoogleChromeElevationService",
+      "display_name": "Google Chrome Elevation Service (GoogleChromeElevationService)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "GoogleUpdaterInternalService149.0.7814.0",
+      "display_name": "Google Updater Internal Service (GoogleUpdaterInternalService149.0.7814.0)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "GoogleUpdaterService149.0.7814.0",
+      "display_name": "Google Updater Service (GoogleUpdaterService149.0.7814.0)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "GraphicsPerfSvc",
+      "display_name": "GraphicsPerfSvc",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "hpatchmon",
+      "display_name": "Hotpatch Monitoring Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "icssvc",
+      "display_name": "Windows Mobile Hotspot Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "iPod Service",
+      "display_name": "iPod Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "IpxlatCfgSvc",
+      "display_name": "IP Translation Configuration Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "KtmRm",
+      "display_name": "KtmRm for Distributed Transaction Coordinator",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "lltdsvc",
+      "display_name": "Link-Layer Topology Discovery Mapper",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "LocalKdc",
+      "display_name": "Kerberos Local Key Distribution Center",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "LxpSvc",
+      "display_name": "Language Experience Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "MapsBroker",
+      "display_name": "Downloaded Maps Manager",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "McmSvc",
+      "display_name": "Mobile Connectivity Management Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "McpManagementService",
+      "display_name": "McpManagementService",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "MicrosoftCopilotElevationService",
+      "display_name": "Microsoft Copilot Elevation Service (MicrosoftCopilotElevationService)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "MicrosoftEdgeElevationService",
+      "display_name": "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "MSDTC",
+      "display_name": "Distributed Transaction Coordinator",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "MSiSCSI",
+      "display_name": "Microsoft iSCSI Initiator Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "msiserver",
+      "display_name": "Windows Installer",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "MsKeyboardFilter",
+      "display_name": "Microsoft Keyboard Filter",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "MsMpiLaunchSvc",
+      "display_name": "MS-MPI Launch Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "NaturalAuthentication",
+      "display_name": "Natural Authentication",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "NcaSvc",
+      "display_name": "Network Connectivity Assistant",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "Netlogon",
+      "display_name": "Netlogon",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "Netman",
+      "display_name": "Network Connections",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "NetTcpPortSharing",
+      "display_name": "Net.Tcp Port Sharing Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "NgcSvc",
+      "display_name": "Microsoft Passport",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "NlaSvc",
+      "display_name": "Network Location Awareness",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "essential"
+    },
+    {
+      "name": "OneDrive Updater Service",
+      "display_name": "OneDrive Updater Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "PeerDistSvc",
+      "display_name": "BranchCache",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "perceptionsimulation",
+      "display_name": "Windows Perception Simulation Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "PerfHost",
+      "display_name": "Performance Counter DLL Host",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "PhoneSvc",
+      "display_name": "Phone Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "pla",
+      "display_name": "Performance Logs & Alerts",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "PrintDeviceConfigurationService",
+      "display_name": "Print Device Configuration Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "PrintNotify",
+      "display_name": "Printer Extensions and Notifications",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "PrintScanBrokerService",
+      "display_name": "PrintScanBrokerService",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "PushToInstall",
+      "display_name": "Windows PushToInstall Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "RasAuto",
+      "display_name": "Remote Access Auto Connection Manager",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "RasMan",
+      "display_name": "Remote Access Connection Manager",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "recommended"
+    },
+    {
+      "name": "refsdedupsvc",
+      "display_name": "ReFS Dedup Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "RemoteAccess",
+      "display_name": "Routing and Remote Access",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "RemoteRegistry",
+      "display_name": "Remote Registry",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "RetailDemo",
+      "display_name": "Retail Demo Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "RpcLocator",
+      "display_name": "Remote Procedure Call (RPC) Locator",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "SCardSvr",
+      "display_name": "Smart Card",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "ScDeviceEnum",
+      "display_name": "Smart Card Device Enumeration Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "SCPolicySvc",
+      "display_name": "Smart Card Removal Policy",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "SDRSVC",
+      "display_name": "Windows Backup",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "seclogon",
+      "display_name": "Secondary Logon",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "SEMgrSvc",
+      "display_name": "Payments and NFC/SE Manager",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "Sense",
+      "display_name": "Windows Defender Advanced Threat Protection Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "SensorDataService",
+      "display_name": "Sensor Data Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "SensorService",
+      "display_name": "Sensor Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "SensrSvc",
+      "display_name": "Sensor Monitoring Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "SessionEnv",
+      "display_name": "Remote Desktop Configuration",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "shpamsvc",
+      "display_name": "Shared PC Account Manager",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "smphost",
+      "display_name": "Microsoft Storage Spaces SMP",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "SNMPTrap",
+      "display_name": "SNMP Trap",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "sppsvc",
+      "display_name": "Software Protection",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "SQLBrowser",
+      "display_name": "SQL Server Browser",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "SQLSERVERAGENT",
+      "display_name": "SQL Server Agent (MSSQLSERVER)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "ssh-agent",
+      "display_name": "OpenSSH Authentication Agent",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "SstpSvc",
+      "display_name": "Secure Socket Tunneling Protocol Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "recommended"
+    },
+    {
+      "name": "Steam Client Service",
+      "display_name": "Steam Client Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "svsvc",
+      "display_name": "Spot Verifier",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "swprv",
+      "display_name": "Microsoft Software Shadow Copy Provider",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "TapiSrv",
+      "display_name": "Telephony",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "TermService",
+      "display_name": "Remote Desktop Services",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "TieringEngineService",
+      "display_name": "Storage Tiers Management",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "TroubleshootingSvc",
+      "display_name": "Recommended Troubleshooting Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "TrustedInstaller",
+      "display_name": "Windows Modules Installer",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "essential"
+    },
+    {
+      "name": "tzautoupdate",
+      "display_name": "Auto Time Zone Updater",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "UevAgentService",
+      "display_name": "User Experience Virtualization Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "UmRdpService",
+      "display_name": "Remote Desktop Services UserMode Port Redirector",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "upnphost",
+      "display_name": "UPnP Device Host",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "VBoxSDS",
+      "display_name": "VirtualBox system service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "vds",
+      "display_name": "Virtual Disk",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "vmicguestinterface",
+      "display_name": "Hyper-V Guest Service Interface",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "vmicheartbeat",
+      "display_name": "Hyper-V Heartbeat Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "vmickvpexchange",
+      "display_name": "Hyper-V Data Exchange Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "vmicrdv",
+      "display_name": "Hyper-V Remote Desktop Virtualization Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "vmicshutdown",
+      "display_name": "Hyper-V Guest Shutdown Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "vmictimesync",
+      "display_name": "Hyper-V Time Synchronization Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "vmicvmsession",
+      "display_name": "Hyper-V PowerShell Direct Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "vmicvss",
+      "display_name": "Hyper-V Volume Shadow Copy Requestor",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "VSInstallerElevationService",
+      "display_name": "Visual Studio Installer Elevation Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "VSS",
+      "display_name": "Volume Shadow Copy",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "VSStandardCollectorService150",
+      "display_name": "Visual Studio Standard Collector Service 150",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "W32Time",
+      "display_name": "Windows Time",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "recommended"
+    },
+    {
+      "name": "WalletService",
+      "display_name": "WalletService",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "WarpJITSvc",
+      "display_name": "Warp JIT Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "wbengine",
+      "display_name": "Block Level Backup Engine Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "WbioSrvc",
+      "display_name": "Windows Biometric Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "wcncsvc",
+      "display_name": "Windows Connect Now - Config Registrar",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "WdiServiceHost",
+      "display_name": "Diagnostic Service Host",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "WebClient",
+      "display_name": "WebClient",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "Wecsvc",
+      "display_name": "Windows Event Collector",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "WEPHOSTSVC",
+      "display_name": "Windows Encryption Provider Host Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "wercplsupport",
+      "display_name": "Problem Reports Control Panel Support",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "WerSvc",
+      "display_name": "Windows Error Reporting Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "WFDSConMgrSvc",
+      "display_name": "Wi-Fi Direct Services Connection Manager Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "WiaRpc",
+      "display_name": "Still Image Acquisition Events",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "Windhawk",
+      "display_name": "Windhawk",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "WinRM",
+      "display_name": "Windows Remote Management (WS-Management)",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "wisvc",
+      "display_name": "Windows Insider Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "wlidsvc",
+      "display_name": "Microsoft Account Sign-in Assistant",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "wlpasvc",
+      "display_name": "Local Profile Assistant Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "WManSvc",
+      "display_name": "Windows Management Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "wmiApSrv",
+      "display_name": "WMI Performance Adapter",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "WMPNetworkSvc",
+      "display_name": "Windows Media Player Network Sharing Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "workfolderssvc",
+      "display_name": "Work Folders",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "WpcMonSvc",
+      "display_name": "Parental Controls",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "WPDBusEnum",
+      "display_name": "Portable Device Enumerator Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "wuqisvc",
+      "display_name": "Microsoft Usage and Quality Insights",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "XblAuthManager",
+      "display_name": "Xbox Live Auth Manager",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "XblGameSave",
+      "display_name": "Xbox Live Game Save",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "XboxGipSvc",
+      "display_name": "Xbox Accessory Management Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "XboxNetApiSvc",
+      "display_name": "Xbox Live Networking Service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "trimmable"
+    },
+    {
+      "name": "ZTHELPER",
+      "display_name": "ZTDNS Helper service",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "AarSvc_99709",
+      "display_name": "AarSvc_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "BcastDVRUserService_99709",
+      "display_name": "BcastDVRUserService_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "BluetoothUserService_99709",
+      "display_name": "BluetoothUserService_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "CaptureService_99709",
+      "display_name": "CaptureService_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "CloudBackupRestoreSvc_99709",
+      "display_name": "CloudBackupRestoreSvc_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "ConsentUxUserSvc_99709",
+      "display_name": "ConsentUxUserSvc_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "CredentialEnrollmentManagerUserSvc_99709",
+      "display_name": "CredentialEnrollmentManagerUserSvc_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "DeviceAssociationBrokerSvc_99709",
+      "display_name": "DeviceAssociationBrokerSvc_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "DevicePickerUserSvc_99709",
+      "display_name": "DevicePickerUserSvc_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "DevicesFlowUserSvc_99709",
+      "display_name": "DevicesFlowUserSvc_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "MessagingService_99709",
+      "display_name": "MessagingService_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "P9RdrService_99709",
+      "display_name": "P9RdrService_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "PenService_99709",
+      "display_name": "PenService_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "PimIndexMaintenanceSvc_99709",
+      "display_name": "PimIndexMaintenanceSvc_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "PrintWorkflowUserSvc_99709",
+      "display_name": "PrintWorkflowUserSvc_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "UnistoreSvc_99709",
+      "display_name": "UnistoreSvc_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    },
+    {
+      "name": "UserDataSvc_99709",
+      "display_name": "UserDataSvc_99709",
+      "item_type": "service",
+      "status": "stopped",
+      "safety": "unknown"
+    }
+  ]
+}
